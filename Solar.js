@@ -1,6 +1,7 @@
 
 (function () {
   const holder = document.getElementById("demo-holder");
+  if(!holder) return;
   holder.innerHTML = `
     <div class="embed-wrap" style="position:relative;width:100%;height:0;padding-bottom:56.25%;border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,.12)">
       <iframe title="Solar system" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" loading="lazy"
